@@ -4,7 +4,7 @@ using UnityEngine;
 public class Clicker : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    private int score = 0;
+    private int score = 0
 
     void Start()
     {
