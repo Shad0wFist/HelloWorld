@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class Clicker : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText;
-    public GameObject floatingTextPref;
-    public Transform floatingTextArea;
-    public int scoreIncrement = 1; // Значение, на которое увеличивается счёт
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private GameObject floatingTextPref;
+    [SerializeField] private Transform floatingTextArea;
+    [SerializeField] private int scoreIncrement = 1; // Значение, на которое увеличивается счёт
 
     private int score = 0;
 

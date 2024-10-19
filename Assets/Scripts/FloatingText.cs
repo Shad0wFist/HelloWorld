@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class FloatingText : MonoBehaviour
 {
-    public float moveSpeed = 1f;
-    public float fadeDuration = 1f;
-    private TextMeshProUGUI textMesh;
-    private Color textColor;
-    private float timeElapsed = 0f;
+    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private float fadeDuration = 1f;
+    [SerializeField] private TextMeshProUGUI textMesh;
+    [SerializeField] private Color textColor;
+    [SerializeField] private float timeElapsed = 0f;
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
